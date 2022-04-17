@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.name {
+  color: #01b47d
+}
+
 .footer a {
   display: flex;
   justify-content: center;
