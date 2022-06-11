@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Parallax pages={2} style={{ top: "0", left: "0" }}>
+        <Parallax pages={3} style={{ top: "0", left: "0" }}>
           <ParallaxLayer
             offset={0}
             speed={2.5}
@@ -29,13 +29,13 @@ const Home: NextPage = () => {
           </ParallaxLayer>
 
           <ParallaxLayer
-            offset={0}
+            offset={1}
             speed={2}
             style={{ backgroundColor: "#ff6d6d" }}
           />
 
           <ParallaxLayer
-            offset={1}
+            offset={2}
             speed={0.5}
             style={{
               display: "flex",
@@ -44,8 +44,7 @@ const Home: NextPage = () => {
               color: "white",
             }}
           >
-            <h1 className={styles.title}>I am a cute widdwe baby 😚
-            </h1>
+            <h1 className={styles.title}>I am a cute widdwe baby 😚</h1>
           </ParallaxLayer>
         </Parallax>
       </main>
