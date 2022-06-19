@@ -160,3 +160,10 @@
 .custom-shape-divider-top-1654975218 .shape-fill {
   fill: #000000;
 }
+
+/* This is for the cards in projects */
+.work_card {
+  padding: 45px 45px 0;
+  border: 2px solid #eeecea;
+  border-radius: 30px;
+}
