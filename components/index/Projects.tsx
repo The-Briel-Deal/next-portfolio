@@ -106,9 +106,8 @@ export default function Title() {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                // justifyContent: "space-between",
                 justifyContent: "center",
-                // width: "clamp(30%, 50%, 70%)",
+                padding: "20px",
               }}
             >
               <div
@@ -124,8 +123,13 @@ export default function Title() {
                     className={styles.work_card}
                     style={{
                       ...trail[j + i * 3],
+                      padding: "20px",
                       height: 200,
-                      //   width: 192,
+                      width: "30%",
+                      backgroundImage: `url("${col.href}")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: " cover",
                     }}
                     key={i}
                   >
